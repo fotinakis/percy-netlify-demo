@@ -1,0 +1,6 @@
+.author-profile-image, .avatar-wrapper {
+  border-radius: 0;
+}
+.moving-avatar, .static-avatar {
+  border-radius: 0;
+}
