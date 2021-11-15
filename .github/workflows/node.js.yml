@@ -25,4 +25,4 @@ jobs:
     - run: npm ci
     - run: |
         npm start &
-        npm snapshot
+        npm run snapshot
