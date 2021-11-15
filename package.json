@@ -18,8 +18,9 @@
     "lint:hbs:fix": "ember-template-lint . --fix",
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
-    "start": "ember serve",
+    "start": "ember serve --port 8080",
     "test": "npm-run-all lint test:*",
+    "snapshot": "percy snapshot snapshots.yml",
     "test:ember": "ember test"
   },
   "devDependencies": {
@@ -27,6 +28,7 @@
     "@ember/test-helpers": "^2.2.5",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
+    "@percy/cli": "^1.0.0-beta.70",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.11.3",
