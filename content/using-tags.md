@@ -1,5 +1,5 @@
 ---
-title: Organising your content with tags
+title: Organising your content
 image: /images/tags.jpg
 imageMeta:
   attribution:
