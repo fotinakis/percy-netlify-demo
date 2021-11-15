@@ -20,7 +20,7 @@
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve --port 8080",
     "test": "npm-run-all lint test:*",
-    "snapshot": "percy snapshot snapshots.yml",
+    "snapshot": "percy snapshot ./dist",
     "test:ember": "ember test"
   },
   "devDependencies": {
